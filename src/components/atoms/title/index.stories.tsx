@@ -1,4 +1,5 @@
 import { Meta } from "@storybook/react";
+import { ComponentStory } from "@storybook/react";
 import { Title } from ".";
 
 export default {
@@ -6,6 +7,8 @@ export default {
   component: Title,
 } as Meta;
 
-export function Default() {
+const Template: ComponentStory<typeof Title> = () => {
   return <Title />;
-}
+};
+
+export const Default = Template.bind({});
