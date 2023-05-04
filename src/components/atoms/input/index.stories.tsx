@@ -14,7 +14,7 @@ type InputValues = {
   example: string;
 };
 
-export const Template: ComponentStory<typeof Input> = () => {
+export const InputType: ComponentStory<typeof Input> = () => {
   const { register } = useForm<InputValues>();
   return (
     <Input
@@ -79,4 +79,5 @@ const DummyText = styled.div`
   width: 411px;
   font-size: 16px;
   line-height: 24px;
+  display: none;
 `;
