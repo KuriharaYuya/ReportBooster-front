@@ -79,5 +79,10 @@ const DummyText = styled.div`
   width: 411px;
   font-size: 16px;
   line-height: 24px;
-  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 520px;
+  border: solid 5px black;
+  padding: 2px 14px;
+  white-space: pre-wrap;
 `;
